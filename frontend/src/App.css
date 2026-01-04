@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", serif;
+  background-color: rgba(44,38,56,255);
+  color : white;
+}
+
+body, html {
+  height: 100%; /* Ensure body and html cover the full height of the viewport */
+  padding-left: 20px;
+}
+
+.rvLogo{
+  display: inline;
+  height : 30px;
+}
+
+.instName{
+  display: inline;
+  margin-left: 10px;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+
+.inst-name{
+  margin-top: 30px; 
+  display: flex;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  padding: 5px 10px;
+  transition: 0.1s all ease-in;
+}
+
+a:nth-child(1):hover {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 2px 0 #349eff;
+}
+
+a:nth-child(2):hover {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 2px 0 #ff5757;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; /* push items to opposite sides */
+  align-items: center; /* vertically center them */
+  padding: 10px 30px;
+}
+
+.linkTop{
+  background-color: rgba(44,38,56,255);
+  border : none;
+  font-size:15px;
+}
+
+.linkTop:hover{
+  background-color: rgba(44,38,56,255);
+  border : none;
+  font-size:15px;
+}
+

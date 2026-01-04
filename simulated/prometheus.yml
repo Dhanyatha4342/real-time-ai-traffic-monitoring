@@ -1,0 +1,10 @@
+scrape_configs:
+  - job_name: 'simulated_exporter'
+    static_configs:
+      - targets: ['localhost:9100']
+
+remote_write:
+  - url: https://prometheus-prod-43-prod-ap-south-1.grafana.net/api/prom/push
+    basic_auth:
+      username: 1771849
+      password: glc_eyJvIjoiMTIxMjI0NCIsIm4iOiJzdGFjay0xMDI3NTkzLWhtLXdyaXRlLXRva2VuMjI4MDUiLCJrIjoiMUt0NVFnNThSeFpaNk9aMzVRM1p0NnUwIiwibSI6eyJyIjoicHJvZC1hcC1zb3V0aC0xIn19

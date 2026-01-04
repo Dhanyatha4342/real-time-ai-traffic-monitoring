@@ -1,0 +1,13 @@
+# Datasets
+datasets/
+*.csv
+
+# Models
+*.joblib
+*.pkl
+
+# Binaries
+*.exe
+
+# Logs
+*.log
